@@ -1,25 +1,25 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import GitHubButton from 'react-github-btn'
-import { graphql, Link } from 'gatsby'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
-import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
-import quotes from '../../data/quotes'
-import tania from '../../content/images/profile.jpg'
+import React, { Component } from "react";
+import Helmet from "react-helmet";
+import GitHubButton from "react-github-btn";
+import { graphql, Link } from "gatsby";
+import Layout from "../layout";
+import PostListing from "../components/PostListing";
+import ProjectListing from "../components/ProjectListing";
+import SimpleListing from "../components/SimpleListing";
+import SEO from "../components/SEO";
+import config from "../../data/SiteConfig";
+import projects from "../../data/projects";
+import speaking from "../../data/speaking";
+import podcasts from "../../data/podcasts";
+import quotes from "../../data/quotes";
+import jifbrodeur from "../../content/images/profile.jpg";
 
 export default class Index extends Component {
   render() {
-    const { data } = this.props
+    const { data } = this.props;
 
-    const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+    const latestPostEdges = data.latest.edges;
+    const popularPostEdges = data.popular.edges;
 
     return (
       <Layout>
@@ -28,36 +28,35 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, I'm Tania`}</h1>
+              <h1>{`Bonjour Je suis Jean-François Brodeur`}</h1>
               <p>
-                I'm a full stack software developer creating{' '}
-                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
+                I'm a full stack software developer creating{" "}
+                <a
+                  href="https://github.com/jifbrodeur"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   open source
-                </a>{' '}
-                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
-                development.
+                </a>{" "}
+                projects and <Link to="/blog">writing</Link> about modern
+                JavaScript, Node.js, and development.
               </p>
               <div className="social-buttons">
                 <GitHubButton
-                  href="https://github.com/taniarascia"
+                  href="https://github.com/jifbrodeur"
                   data-size="large"
                   data-show-count="true"
                 >
-                  taniarascia
+                  jifbrodeur
                 </GitHubButton>
               </div>
             </div>
             <div className="newsletter-section">
-              <img src={tania} className="newsletter-avatar" alt="Tania" />
-              <div>
-                <h3>Email Newsletter</h3>
-                <p>
-                  I write tutorials. Get an update when something new comes out by signing up below!
-                </p>
-                <a className="button" href="https://taniarascia.substack.com">
-                  Subscribe
-                </a>
-              </div>
+              <img
+                src={jifbrodeur}
+                className="newsletter-avatar"
+                alt="Jean-François Brodeur"
+              />
             </div>
           </div>
         </div>
@@ -111,7 +110,7 @@ export default class Index extends Component {
           </section>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
@@ -178,4 +177,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

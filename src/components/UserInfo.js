@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import tania from '../../content/images/profile.jpg'
+import React, { Component } from "react";
+import jifbrodeur from "../../content/images/profile.jpg";
 
 export default class UserInfo extends Component {
   render() {
@@ -8,21 +8,25 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={tania} alt="Tania Rascia" />
+              <img
+                className="avatar"
+                src={jifbrodeur}
+                alt="Jean-François Brodeur"
+              />
             </div>
             <div>
               <p>
-                I’m Tania Rascia. I document everything I learn and help thousands of people start
-                coding careers.{' '}
+                Je suis Jean-François Brodeur. I document everything I learn and
+                help thousands of people start coding careers.{" "}
                 <strong>
-                  My site has no ads, sponsors, or bullshit. If you enjoy my content, please
-                  consider supporting what I do.
+                  My site has no ads, sponsors, or bullshit. If you enjoy my
+                  content, please consider supporting what I do.
                 </strong>
               </p>
             </div>
           </div>
         </div>
       </aside>
-    )
+    );
   }
 }
