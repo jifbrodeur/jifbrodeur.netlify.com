@@ -10,7 +10,7 @@ If you have any comments, ideas, critiques, or you just want to say hi, don't he
 
 ### Around the web
 
-- **Email**: [jifbrodeur@jbmlogic.com](mailto:jifbrodeur[AT]jbmlogic[DOT]com)
+- **Email**: [jifbrodeur@jbmlogic.com](mailto:jifbrodeur@jbmlogic.com)
 - **GitHub**: [jifbrodeur](https://github.com/jifbrodeur)
 - **Twitter**: [jifbrodeur](https://twitter.com/jifbrodeur)
 
