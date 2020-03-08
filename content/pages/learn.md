@@ -49,7 +49,7 @@ My current focus is **Computer Science** fundamentals and all things **JavaScrip
   - [x] Size complexity
   - [x] Time complexity
 - [ ] **Sorting**
-  - [ ] Bubble
+  - [x] Bubble
   - [ ] Insertion
   - [ ] Selection
   - [ ] Merge
