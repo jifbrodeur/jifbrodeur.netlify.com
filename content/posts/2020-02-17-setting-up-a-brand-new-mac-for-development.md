@@ -1,6 +1,6 @@
 ---
 date: 2020-02-17
-title: 'macOS Catalina 10.15: Setting up a Brand New Mac for Development'
+title: 'macOS Ventura 13.2: Setting up a Brand New Mac for Development'
 template: post
 thumbnail: '../thumbnails/apple.png'
 slug: setting-up-a-brand-new-mac-for-development
